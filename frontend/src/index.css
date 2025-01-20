@@ -1,0 +1,91 @@
+body {
+  background-color: #1e1e1e;
+}
+
+.to-do-list {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: #8e8e8e;
+}
+
+.add-button {
+  background: rgb(49, 49, 48);
+  font-weight: bold;
+  border: 1px solid rgb(49, 49, 48);
+  border-radius: 12px;
+  margin: 10px;
+  color: #8e8e8e;
+  height: 40px;
+  width: 90px;
+  cursor: pointer;
+  padding: 6px;
+  align-items: center;
+  text-align: center;
+}
+
+.add-button:hover {
+  background-color: rgb(46, 46, 46);
+}
+#task {
+  background-color: rgb(49, 49, 48);
+  border: none;
+  border-radius: 10px;
+  padding-left: 1rem;
+  color: #8e8e8e;
+  font-weight: normal;
+  font-size: large;
+  width: 500px;
+  height: 40px;
+}
+
+.to-do-list li {
+  background-color: #3c3c3c;
+  margin: 0px;
+
+  border-radius: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.delete-button {
+  background: transparent;
+  cursor: pointer;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: larger;
+  padding: 3px;
+}
+.edit-button {
+  background: transparent;
+  cursor: pointer;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: large;
+  padding: 3px;
+}
+.edit-button:hover {
+  color: rgb(172, 173, 175);
+}
+
+.delete-button:hover {
+  color: rgb(148, 148, 148);
+}
+
+.list {
+  flex: 1;
+  color: #ccc;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  align-items: baseline;
+  padding: 2rem 0;
+  font-family: Arial, sans-serif;
+}
