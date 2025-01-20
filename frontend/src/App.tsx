@@ -15,6 +15,7 @@ function ToDoList() {
   const [id, setId] = useState<number>();
   const focus = (index: number) => {
     setId(index);
+    setNewTask(tasks.find((task) => task.index === index)?.todo || "");
     setEditMode(true);
     if (input.current) input.current.focus();
   };
