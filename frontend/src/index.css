@@ -89,3 +89,8 @@ footer {
   padding: 2rem 0;
   font-family: Arial, sans-serif;
 }
+span {
+  outline: none;
+  border: none;
+  white-space: pre-wrap;
+}
